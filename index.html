@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+    <title>Site Projeto Uniesp</title>
+</head>
+<body>
+
+<header>
+    <h1>Projeto Uniesp</h1>
+    <nav>
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            <li><a href="adm.html">ÁREA ADMIN</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Contato</h2>
+    <p></p>
+</section>
+
+<section id="contato">
+    <h2>Login de Usuário</h2>
+    <form id="user-login-form">
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <button type="button" onclick="loginUsuario()">Entrar</button>
+    </form>
+</section>
+
+</body>
+</html>
